@@ -15,7 +15,7 @@
 ## Introduction
 Network architecture is changing. More services are moving to the cloud, there is a surge in the use of Software as a Service (SaaS), and users are embracing flexible working on multiple devices in a variety of locations. The traditional network perimeter is disappearing and with it, the value of traditional defences.
 
-In a zero trust architecture, inherent trust is removed from the network. Just because you're connected to a network doesn't mean you should be able to access everything on that network. This is commonly seen in breaches; an attacker gains a foothold in a network and is able to move laterally because everything on the network is trusted. In zero trust, should be treated as hostile.
+In a zero trust architecture, inherent trust is removed from the network. Just because you're connected to a network doesn't mean you should be able to access everything on that network. This is commonly seen in breaches; an attacker gains a foothold in a network and is able to move laterally because everything on the network is trusted. In zero trust, everything should be treated as hostile.
 
 However, in order to remove trust from the network, you need to instead gain confidence that you can trust a connection. This is achieved by building trust into the user's identity, their devices, and the services they access. For this model to be effective, each connection to a service should be authenticated, authorised against a policy, and encrypted, regardless of where the connection request come from. 
 
