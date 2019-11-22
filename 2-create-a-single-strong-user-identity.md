@@ -1,4 +1,4 @@
-# Create a single strong user identity 
+# Create a single strong user identity
 
 Your organisation should use a single user directory and create accounts that are linked to individuals.
 
@@ -6,12 +6,13 @@ To enable granular access control, create specific roles for each user. Ensure t
 
 **Desirable features of an identity service include:**
 
-* Ability to create groups
-* Defining roles
-* Supports modern authentication methods including multi-factor authentication
-* Credentials can be distributed to your users easily but securely
-* Can be used to sign-in to external services
-* Supports your joiners, movers and leavers process
+* Create groups
+* Define roles
+* Support for strong, modern authentication methods such as multi-factor authentication or even passwordless authentication
+* Easily, but securely, distribute credentials to users
+* Authenticate to external services (e.g. SAML 2.0 or OpenID Connect)
+* Manage user identities in external services (e.g. SCIM 2.0)
+* Support for your joiners, movers, and leavers processes
 
 If you have an existing directory, migrating to another directory will require careful planning. Some directory services allow you to import, synchronise or federate between directories, this would allow a phased approach to migration from your legacy directory service to one which supports a zero trust architecture.
 
