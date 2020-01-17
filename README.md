@@ -115,9 +115,3 @@ In order to remove trust from the network you need to build trust into the devic
 Prefer services with built-in support for zero trust network architectures.
 
 [Read more](10-choose-services-designed-for-zero-trust.md)
-
-### 11. Don't impersonate users
-
-Do not allow systems to make requests on behalf of users to other systems arbitrarily.
-
-[Read more](11-dont-impersonate-users.md)
