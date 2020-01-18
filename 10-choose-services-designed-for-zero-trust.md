@@ -11,3 +11,31 @@ Given that in a zero trust architecture, you can’t trust the network, services
 Whenever possible, use standards-based technologies. This allows interoperability between devices and services. A good example is authentication, where common standards such as OpenID Connect or SAML allow you to use a single directory service to authenticate to many services.
 
 Unfortunately, there are currently no standards for policies. We recommend that you use a single policy engine and apply the full set of features it offers.
+
+## Open Source Solutions
+
+Before building everything from the ground up, try an open source technology that fits your needs!
+
+### Frameworks
+
+* [Istio](https://istio.io)
+
+### Identity Aware Proxies
+
+* [Ambassador](https://www.getambassador.io)
+* [ORY Oathkeeper](https://github.com/ory/oathkeeper)
+
+### Identity and Access Management
+
+* [Keycloak](https://www.keycloak.org)
+* [ORY Kratos](https://github.com/ory/kratos)
+
+### Federation
+
+* [Dex](https://github.com/dexidp/dex)
+* [ORY Hydra](https://github.com/ory/hydra)
+
+### Policies
+
+* [Open Policy Agent](https://www.openpolicyagent.org)
+* [ORY Keto](https://github.com/ory/keto)
