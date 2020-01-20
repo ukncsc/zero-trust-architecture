@@ -68,47 +68,47 @@ We then dive into the ten principles. These are the foundation of designing a ze
 ### 1. Know your architecture
 In the zero trust network model it’s more important than ever to know about your assets.
 
-[Read more](1-know-your-architecture.md)
+[Read more](01-know-your-architecture.md)
 
 ### 2. Create a single strong user identity
 Your organisation should use a single user directory and create accounts that are linked to individuals.
 
-[Read more](2-create-a-single-strong-user-identity.md)
+[Read more](02-create-a-single-strong-user-identity.md)
 
 ### 3. Create a strong device identity
 Each device owned by your organisation should be uniquely identifiable in a single device directory.
 
-[Read more](3-create-a-strong-device-identity.md)
+[Read more](03-create-a-strong-device-identity.md)
 
 ### 4. Authenticate everywhere
 In a zero trust architecture assume the network is hostile, authenticate all connections.
 
-[Read more](4-authenticate-everywhere.md)
+[Read more](04-authenticate-everywhere.md)
 
 ### 5. Know the health of your devices and services
 The health of devices and services is one of the most important signals used to gain confidence in them.
 
-[Read more](5-know-the-health-of-your-devices-and-services.md)
+[Read more](05-know-the-health-of-your-devices-and-services.md)
 
 ### 6. Focus your monitoring on devices and services
 Given that devices and services are more exposed to network attack than in traditional architectures it’s important that comprehensive monitoring for attacks is carried out.
 
-[Read more](6-focus-your-monitoring-on-devices-and-services.md)
+[Read more](06-focus-your-monitoring-on-devices-and-services.md)
 
 ### 7. Set policies according to the value of services or data
 The power of a zero trust architecture comes from the access policies you define.
 
-[Read more](7-set-policies-according-to-the-value-of-the-service-or-data.md)
+[Read more](07-set-policies-according-to-the-value-of-the-service-or-data.md)
 
 ### 8. Control access to your services and data
 Each request to a service should be authorised against a policy.
 
-[Read more](8-control-access-to-your-services-and-data.md)
+[Read more](08-control-access-to-your-services-and-data.md)
 
 ### 9. Don’t trust the network, including the local network
 In order to remove trust from the network you need to build trust into the devices and services.
 
-[Read more](9-dont-trust-the-network.md)
+[Read more](09-dont-trust-the-network.md)
 
 ### 10. Choose services designed for zero trust
 
