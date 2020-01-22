@@ -17,9 +17,9 @@ Network architecture is changing. More services are moving to the cloud, there i
 
 In a zero trust architecture, inherent trust is removed from the network. Just because you're connected to a network doesn't mean you should be able to access everything on that network. This is commonly seen in breaches; an attacker gains a foothold in a network and is able to move laterally because everything on the network is trusted. In a zero trust architecture, the network is treated as hostile.
 
-However, in order to remove trust from the network, you need to instead gain confidence that you can trust a connection. This is achieved by building trust into the user's identity, their devices, and the services they access. For this model to be effective, each connection to a service should be authenticated, authorised against a policy, and encrypted, regardless of where the connection request come from. 
+However, in order to remove trust from the network, you need to instead gain confidence in the authentication, verification and authorization of users and services. This is achieved by building trust into the user's identity (user authentication), their devices (device verification), and the services they access (service authorisation). For this model to be effective, each connection to a service should be authenticated and the device and connection authorised against a policy, regardless of where the connection request comes from. 
 
-To enable authorisation decisions, access policies need to be defined, based on who can access which service or data, under which circumstances. How much confidence you need to trust a connection depends on the value of data being accessed or impact of action being performed.
+To enable authorisation decisions, access policies need to be defined, based on who can access which service or data, under which circumstances. How much confidence you need to trust a connection depends on the value of data being accessed or impact of action being performed. Likewise, devices should be inventoried and device verification should be based on defined policies (such as encryption, patch levels, etc).
 
 ## What does this guidance do?
 These principles are intended to help you design and deploy a secure end-to-end, zero trust architecture. This will stretch from your users and their devices, through to the services and data they are accessing. You'll also get a clear understanding of the zero trust model, the benefits it brings and the risks you'll need to consider.
@@ -68,47 +68,47 @@ We then dive into the ten principles. These are the foundation of designing a ze
 ### 1. Know your architecture
 In the zero trust network model it’s more important than ever to know about your assets.
 
-[Read more](1-know-your-architecture.md)
+[Read more](01-know-your-architecture.md)
 
 ### 2. Create a single strong user identity
 Your organisation should use a single user directory and create accounts that are linked to individuals.
 
-[Read more](2-create-a-single-strong-user-identity.md)
+[Read more](02-create-a-single-strong-user-identity.md)
 
 ### 3. Create a strong device identity
 Each device owned by your organisation should be uniquely identifiable in a single device directory.
 
-[Read more](3-create-a-strong-device-identity.md)
+[Read more](03-create-a-strong-device-identity.md)
 
 ### 4. Authenticate everywhere
 In a zero trust architecture assume the network is hostile, authenticate all connections.
 
-[Read more](4-authenticate-everywhere.md)
+[Read more](04-authenticate-everywhere.md)
 
 ### 5. Know the health of your devices and services
 The health of devices and services is one of the most important signals used to gain confidence in them.
 
-[Read more](5-know-the-health-of-your-devices-and-services.md)
+[Read more](05-know-the-health-of-your-devices-and-services.md)
 
 ### 6. Focus your monitoring on devices and services
 Given that devices and services are more exposed to network attack than in traditional architectures it’s important that comprehensive monitoring for attacks is carried out.
 
-[Read more](6-focus-your-monitoring-on-devices-and-services.md)
+[Read more](06-focus-your-monitoring-on-devices-and-services.md)
 
 ### 7. Set policies according to the value of services or data
 The power of a zero trust architecture comes from the access policies you define.
 
-[Read more](7-set-policies-according-to-the-value-of-the-service-or-data.md)
+[Read more](07-set-policies-according-to-the-value-of-the-service-or-data.md)
 
 ### 8. Control access to your services and data
 Each request to a service should be authorised against a policy.
 
-[Read more](8-control-access-to-your-services-and-data.md)
+[Read more](08-control-access-to-your-services-and-data.md)
 
 ### 9. Don’t trust the network, including the local network
 In order to remove trust from the network you need to build trust into the devices and services.
 
-[Read more](9-dont-trust-the-network.md)
+[Read more](09-dont-trust-the-network.md)
 
 ### 10. Choose services designed for zero trust
 
