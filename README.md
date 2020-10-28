@@ -96,30 +96,49 @@ These are the foundations of zero trust architecture design.
 
 In the zero trust network model it's more important than ever to know your assets.
 
+[Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/01-Know-your-architecture-including-users-devices-and-services.md)
+
 ### 2. Know your User, Service and Device identities
 
 In a zero trust architecture, identity becomes the new perimeter, it is important to have a single source of identity for each of the following: user (human), service (machine or software process) and device.
+
+[Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/02-Know-your-User-Service-and-Device-identities.md)
 
 ### 3. Know the health of your users, devices and services
 
 The health of devices, user behaviour and services are some of the most important signals used to gain confidence in them.
 
+[Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/03-Know-the-health-of-your-users-devices-and-services.md)
+
 ### 4. Use policies to authorise requests
 
 Every request to access a data or a service should be checked by a central policy engine, which compares signals with access policies to determine an access decision
+
+[Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/04-Use-policies-to-authorise-requests.md)
 
 ### 5. Authenticate everywhere
 
 In a zero trust architecture, we assume the network is hostile and authenticate *all* connections that access data or services.
 
+[Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/05-Authenticate-everywhere.md)
+
 ### 6. Focus your monitoring on devices and services
 
 Given that devices and services are more exposed to network attack than in traditional architectures it's important that comprehensive monitoring for attacks is carried out.
+
+[Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/06-focus-your-monitoring-on-devices-and-services.md)
 
 ### 7. Don't trust any network, including your own
 
 In zero trust the network is considered hostile, therefore build trust into users, devices and services rather than the network. 
 
+[Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/07-Don't-trust-any-network-including-your-own.md)
+
 ### 8. Choose services designed for zero trust
 
 Select services with built-in support for zero trust network architectures.
+
+[Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/08-Choose-services-designed-for-zero-trust.md)
+
+
+
