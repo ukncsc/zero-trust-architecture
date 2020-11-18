@@ -6,7 +6,7 @@
 >
 > Our ALPHA Guidance can be found [here](https://github.com/ukncsc/zero-trust-architecture/tree/962eee06a4071489ab119751102d3f61c2d3dae4) 
 >
-> [Our blog|[https://www.ncsc.gov.uk/blog-post/zero-trust-principles-beta-release] introduces this guidance and covers our approach.
+> [Our blog](https://www.ncsc.gov.uk/blog-post/zero-trust-principles-beta-release) introduces this guidance and covers our approach.
 >
 > If you have any feedback or ideas you can [create an issue](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue) or if you'd like to contribute [create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 >
