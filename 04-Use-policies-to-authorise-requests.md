@@ -1,3 +1,5 @@
+
+
 # 4. Use policies to authorise requests
 
 Each request for data or a service should be authorised against a policy. The power of a zero-trust architecture comes from the access policies you define.
@@ -17,8 +19,9 @@ Policy decisions should consider several signals, taken from a signals database 
 Signals from sources such as the user's identity, their devices and user behaviour can be used to make access decisions. For example, a high-impact action, such as creating a new admin-level user, would have to meet stringent policy requirements to be trusted. Whereas, a relatively low-impact action, such as checking the online lunch menu, would have to meet more lenient policy requirements to be trusted.
 
 <p align="center">
-  <img src="DiagramsZT-2.png" />
+  <img src="Diagrams/ZT-2.png" />
 </p>
+
 
 **Buying zero trust technology**
 
