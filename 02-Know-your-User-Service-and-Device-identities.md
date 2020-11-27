@@ -20,7 +20,7 @@ Service accounts, keys (excluding those generated and stored in a secure enclave
 
 -   Support strong, modern authentication methods such as multi-factor or even passwordless
 
--   Securely distribute credentials to users
+-   Securely provision credentials to users
 
 -   Authenticate to external services (e.g. SAML 2.0 or OpenID Connect)
 
@@ -74,7 +74,7 @@ An example authentication approach could be a unique certificate per machine, or
 
 Each device owned by your organisation should be uniquely identifiable in a single device directory. This enables efficient asset management and provides clear visibility of the devices which access your services and data.
 
-Policies you define later will use compliance and health claims from a device to make decisions about which data it can access and the actions it can perform. A strong identity is required to ensure these claims can be authenticated.
+Policies you define later will use compliance and health claims from a device to make decisions about which data it can access and the actions it can perform. A strong identity is required to ensure these claims can be validated.
 
 The confidence you can have in a device's identity depends on the device type, hardware and platform:
 
