@@ -12,7 +12,7 @@ It's important that you are confident in the device health as a compromised, 'un
 
 **Network monitoring**
 
-Although the network is untrusted and assumed hostile, network monitoring is still important to ensure good performance and cyber hygiene. Monitoring should be carried out on your local networks to measure performance, identify rogue devices, and malicious activity, especially if you're hosting on-premise services.
+Although the network is untrusted and assumed hostile, network monitoring is still important to ensure good performance and cyber hygiene. Monitoring should be carried out on your networks to measure performance, identify all devices attached to your network, detect rogue devices, and malicious activity, especially if you're hosting on-premise services.
 
 Coupled with device monitoring, network monitoring can help improve visibility and correlation. For example, you could trace network connections to the process on the device that generated them.
 
