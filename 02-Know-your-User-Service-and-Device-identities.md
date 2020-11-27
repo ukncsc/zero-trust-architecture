@@ -48,7 +48,7 @@ In applications and systems with multiple components, it is common for an applic
 
 An application making a call on behalf of the end user may have to authenticate itself to a back-end service to make the request. But, if there is no artefact of an end-user request associated with this request, then we have empowered this application - or any adversary in control of it - to impersonate end users within our architecture.
 
-Wherever possible, artefacts of end-user consent should be included with requests to back-end services, so that we can have greater confidence that this request originated from the end user. This is best displayed in the RFC standard for \"[OAuth Token Exchange](https://tools.ietf.org/html/rfc8693)\", where a system must use the end user\'s access token and authenticate itself to a central authorisation server for the right to call a back-end service on behalf of an end user.
+Wherever possible, artefacts of end-user consent to authorise the request should be included with requests to back-end services, so that we can have greater confidence that this request originated from the end user. This is best displayed in the RFC standard for \"[OAuth Token Exchange](https://tools.ietf.org/html/rfc8693)\", where a system must use the end user\'s access token and authenticate itself to an authorisation server for the right to call a back-end service on behalf of an end user.
 
 <p align="center">
   <img src="Diagrams/User_token_Service_3.png" />
