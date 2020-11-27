@@ -1,6 +1,6 @@
 # 3. Know the health of your users, devices and services
 
-Zero trust architecture should monitor health signals from your users and devices (including IoT) continuously, to evaluate confidence in their trustworthiness. For example, you may want to know where your users are trying to access services from and have confidence in the health of your devices.
+You should monitor health signals from your users and devices (including IoT) continuously, to evaluate confidence in their trustworthiness. For example, you may want to know where your users are trying to access services from and have confidence in the health of your devices.
 
 ### Device health
 
@@ -10,7 +10,7 @@ First, define policies which configure devices to be secure - the [NCSC's mobile
 
 Device health can be determined based on the state of security features on the platform. For example, is secure boot enabled? [Are the latest operating system updates installed](https://www.ncsc.gov.uk/collection/mobile-device-guidance/keeping-devices-and-software-up-to-date)? [Is virtualisation-based security](https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-vbs) or [system integrity protection enabled](https://support.apple.com/en-us/HT204899)?
 
-Going further, determining the underlying state of a devices' firmware, boot process, endpoint security suite and operating system kernel are strong signals which help to the determination its overall health. Attestation is a way of achieving this, taking a snapshot of the state of a device with claims about different components of the hardware and operating system. Modern device security features can inform whether the device is compromised. This information can be used as a signal that can be used to determine access to a service or data.
+Going further, determining the underlying state of a devices' firmware, boot process, endpoint security suite and operating system kernel are strong signals which help to the determination its overall health. Attestation is a way of achieving this, taking a snapshot of the state of a device with claims about different components of the hardware and operating system. The endpoint security suite can inform whether the device is compromised. This information can be used as a signal that can be used to determine access to a service or data.
 
 **Services**
 
