@@ -10,6 +10,8 @@ User devices within a traditional walled garden network architecture should use 
 
 It's important that you are confident in the device health as a compromised, 'unhealthy' device cannot be trusted to provide reliable monitoring, as logs could have been tampered with.
 
+Endpoint security suite provides features to detect threats, predict and prevent attacks from impersonating the user, compromising the device and exfiltrating your confidential information.
+
 **Network monitoring**
 
 Although the network is untrusted and assumed hostile, network monitoring is still important to ensure good performance and cyber hygiene. Monitoring should be carried out on your local networks to measure performance, identify rogue devices, and malicious activity, especially if you're hosting on-premise services.
