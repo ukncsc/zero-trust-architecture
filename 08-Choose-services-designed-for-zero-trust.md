@@ -14,6 +14,6 @@ Creating your own supporting infrastructure should be avoided, due to the cost, 
 
 **Look for standards**
 
-Whenever possible, use standards-based technologies. This allows interoperability between devices and services. A good example is authentication, where common standards such as [OpenID Connect](https://openid.net/connect/) or [SAML](https://wiki.oasis-open.org/security/FrontPage) allow you to use a single directory service to authenticate to many services.
+Whenever possible, use standards-based technologies. This allows interoperability between devices and services. A good example is authentication and authorisation, where common standards such as [OpenID Connect](https://openid.net/connect/), OAuth or [SAML](https://wiki.oasis-open.org/security/FrontPage) allow you to use a single directory service to authenticate to many services.
 
 Unfortunately, there are currently no standards for policies. However, we recommend that you use a single policy engine and apply the full set of features it offers.
