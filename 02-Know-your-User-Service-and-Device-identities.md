@@ -78,7 +78,7 @@ Policies you define later will use compliance and health claims from a device to
 
 The confidence you can have in a device's identity depends on the device type, hardware and platform:
 
--   Device identity should be tightly bound to the device on a secure hardware co-processor, such as a TPM that will give you high confidence in the device's identity. Key attestation should be used where possible.
+-   Device identity should be protected by cryptography and tightly bound to the device on a secure hardware co-processor, such as a TPM that will give you high confidence in the device's identity. Key attestation should be used where possible.
 
 -   Identity stored on a well-managed device, using a software-based key store gives a lower confidence in the device's identity than a TPM-based approach
 
