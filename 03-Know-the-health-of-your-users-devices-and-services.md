@@ -24,12 +24,12 @@ The health of your services needs to be monitored. An unexpected change in state
 
 **Users**
 
-The health of the users accessing services, devices and data should be carefully considered. Service and data access decisions need to be based on user signals.
+The health of the users accessing services, devices and data should be carefully considered. Service and data access decisions need to be based on signals of the user and his or her devices being used for the access.
 
 Define policies that check the state of the users\' connections. For example, a user connecting in from a different geographical region to where they are normally based, or activity in the middle of the night may be unexpected. Further signals can be requested to improve the integrity of the user action, by asking for another factor of authentication.
 
 Passwordless authentication (e.g. FIDO2) is an ideal solution which provides strong security with an excellent user experience. Consider implementing passwordless authentication for a strong, consistent, and simple authentication experience across all of your services.
 
-Multi-factor Authentication (MFA) is a requirement of zero trust architecture, but with modern devices and platforms, this doesn't mean the user experience has to be poor.
+Multi-factor Authentication (MFA) is a requirement of zero trust architecture, but with modern devices and platforms, this doesn't mean the user experience has to be poor. The key to preserving the user experience is triggering MFA only when required. For example, when confidence of the user and his or her devices degrades, trigger the MFA. Signals of the users and devices are used to evaluate the confidence. 
 
  
