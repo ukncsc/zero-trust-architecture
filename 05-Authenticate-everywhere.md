@@ -1,10 +1,10 @@
-# 5. Authenticate everywhere
+# 5. Authenticate and Authorise everywhere
 
 In a zero trust architecture, we assume the network is hostile and authenticate *all* connections that access data or services.
 
 Services may be available directly over the Internet, so authentication of user requests requires a stronger mechanism than a simple username and password combination.
 
-Authentication and authorisation should include multiple signals, such as device health, device location and user identity, to build session risk detection.
+Authentication and authorisation decision should consider multiple signals, such as device health, device location and user identity and status, and evaluate risk associated with the access requests.
 
 **Multi-factor**
 
@@ -15,6 +15,8 @@ For higher-impact requests, consider adding additional factors such as: hardware
 **Usability**
 
 It's important that strong authentication doesn't hinder the usability of a service. So, only prompt for additional authentication factors when requests have a higher impact. For example, when accessing sensitive data or requesting privileged actions, such as creating users. SSO should be considered, to mitigate the friction of using MFA.
+
+A risk-based approach should be considered to mitigate the higher impact caused by the additional authentication factors. In the example above, if the confidence level of the user is sufficiently high, additional factors may be avoided.
 
 Passwordless authentication (e.g. FIDO2) is an ideal solution, as it provides strong security, and an excellent user experience. Consider implementing passwordless authentication for a strong, consistent, and positive user experience across all of your services.
 
