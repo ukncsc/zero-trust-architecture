@@ -6,7 +6,7 @@ It is important to have a single source of identity for each of the following: u
 
 ### User Identity 
 
-Your organisation should use a single user directory and create accounts that are linked to individuals. Each identity's permissions should be configured to be ['least privilege'](https://www.ncsc.gov.uk/collection/10-steps-to-cyber-security/the-10-steps/managing-user-privileges), so a user only has access to what they require to carry out their role.
+Your organisation should use a single user directory and create accounts that are linked to individuals (or a virtual directory / directory synchronisation to give the appearance of a single user directory). Each identity's permissions should be configured to be ['least privilege'](https://www.ncsc.gov.uk/collection/10-steps-to-cyber-security/the-10-steps/managing-user-privileges), so a user only has access to what they require to carry out their role (these privileges are often derived from the users role).
 
 The directory should be compatible with external and internal services, so there is a single source of identity and sign-on for a user. This will allow for a better user experience, but also permit a single strong identity for all corporate services.
 
