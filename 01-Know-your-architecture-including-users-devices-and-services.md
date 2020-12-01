@@ -2,7 +2,7 @@
 
 In the zero trust network model it's more important than ever to know your assets. This will most likely involve undertaking an asset discovery phase to understand what you have. In some environments this can be challenging and it might involve using an automated tool to discover assets on the network. It might not always be a technology problem, it could be the case you can determine your assets by querying procurement records. In a micro service architecture it would be advantageous to know the data flows between services before you start to implement zero trust.
 
-In order to get the benefits from zero trust you need to know about each component of your architecture, from users and their devices, through to the services and data they are accessing.
+In order to get the benefits from zero trust you need to know about each component of your architecture, from users and their devices (including external users), through to the services and data they are accessing.
 
 Your attention should be focused on the components of the system which use the network. The network itself should be considered untrusted and hostile
 
