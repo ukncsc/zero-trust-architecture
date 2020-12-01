@@ -22,7 +22,7 @@ Service accounts, keys (excluding those generated and stored in a secure enclave
 
 -   Securely distribute credentials to users
 
--   Authenticate to external services (e.g. SAML 2.0 or OpenID Connect)
+-   Authenticate to services (e.g. SAML 2.0, OAuth 2.0 or OpenID Connect)
 
 -   Manage user identities in external services (e.g. SCIM 2.0)
 
