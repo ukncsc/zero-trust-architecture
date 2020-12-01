@@ -64,7 +64,7 @@ Please note it is not desirable to replay artefacts like an end-user\'s session 
 
 Services (machines or software processes) should have their own unique identity and be granted the minimum privileges necessary to function correctly.
 
-All service identities should be registered in a central identity service. It would be advantageous to use the identity service provided by the underlying platform. For example, if you're using a public cloud service to host an application, consider the cloud provider\'s identity service, or identity federation to use the identity provider you trust including your own authentication/authorization servers. Or, if you're using a container orchestration platform, consider adopting the identity platform or identity federation it supports.
+All service identities should be registered in a central identity service. It would be advantageous to use the identity service provided by the underlying platform. For example, if you're using a public cloud service to host an application, consider the cloud provider\'s identity service, or identity federation to use the identity provider you trust including your own authentication/authorization servers. If you're using a container orchestration platform, consider adopting the identity platform or identity federation it supports.
 
 Authentication for a service should be strong and appropriate for use with services or machine identities.
 
