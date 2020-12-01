@@ -4,9 +4,9 @@
 
 Each request for data or a service should be authorised against a policy. The power of a zero-trust architecture comes from the access policies you define.
 
-Use products and protocols that support a continuous authentication and authorisation process, whilst protecting your data in transit with encryption. How you achieve this depends on the of zero trust technologies you deploy.
+Use products and protocols that support a continuous authentication and authorisation process, whilst protecting your data at rest and in transit with encryption. How you achieve this depends on the of zero trust technologies you deploy.
 
-For example, In a cloud environment, access may be controlled using an authentication and authorisation broker to provide Single sign-on (SSO) functionality to a variety of applications, with enforcement usually being session-based. Policies will be assessed as a connection is established, and if approved, the broker will provide a short-lived session token allowing access to the service requested by the user.
+For example, in a cloud environment, access may be controlled using an authentication and authorisation broker to provide Single sign-on (SSO) functionality to a variety of applications, with enforcement usually being session-based. Policies will be assessed as a connection is established, and if approved, the broker will provide a short-lived session token allowing access to the service requested by the user.
 
 Continuous Authentication and Authorisation is supported by monitoring signals from users and devices and evaluating their confidence level continually. When the confidence degrades, re-authentication may be triggered by applying the access policies dynamically before authorising access requests from the users and devices.
 
@@ -39,4 +39,4 @@ When an access request is denied, consider how the user will be informed. Too mu
 
 Should an emergency arise where access to data is critical, you may need to have a process in place which allows a connection to be established even if an access policy can\'t be satisfied.
 
-In such a scenario, the risk needs to be managed carefully to prevent this feature being abused. For example, limit the risk associated with emergency access by only allowing such access, from an individual user account, on a specific device, from a specified location, for a limited time.
+In such a scenario, the risk needs to be managed carefully to prevent this feature being abused. For example, limit the risk associated with emergency access by only allowing such access, from an individual user account, on a specific device, from a specified location, for a limited time, with minimum privilege required.
