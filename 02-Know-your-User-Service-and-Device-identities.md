@@ -60,6 +60,8 @@ Wherever possible, artefacts of end-user consent should be included with request
 
 Please note it is not desirable to replay artefacts like an end-user\'s session token to front-end applications, as this increases the chance that the artefact could become compromised.
 
+A Zero trust architecture should be able to handle the situation where the artefact is compromised. To detect and recover from the compromised situation, a zero trust architecture should be able to continuously monitor signals from users and devices accessing services and data. Upon detecting anomaly behaviour the level of the confidence for the users and devices should be deteriorated, remediation action should be triggered immediately, for example, terminating the connection or triggering MFA. Relying on revocation of artefacts or tokens may not be responsive enough to handle the situation and may not be cost effective because revocation requires identification of all the compromised artefacts or tokens and revocation of them.
+
 ### Service Identity 
 
 Services (machines or software processes) should have their own unique identity and be granted the minimum privileges necessary to function correctly.
