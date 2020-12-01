@@ -10,11 +10,11 @@ Whatever solution you choose to protect foundation network protocols, we recomme
 
 **Enforcing device usage policy**
 
-In a zero trust architecture, network traffic is no longer tunnelled back to a central point, so Internet traffic cannot be inspected and monitored. Therefore, the traditional method of enforcing an Internet browsing policy; the blocking of malicious domains and unauthorised use of network protocols, will need to be enforced on the device.
+In a zero trust architecture, some network traffic is no longer tunnelled back to a central point, so Internet traffic cannot be inspected and monitored. Therefore, the traditional method of enforcing an Internet browsing policy; the blocking of malicious domains and unauthorised use of network protocols, will need to be enforced on the device. 
 
 It could be possible another hop in the network might be required e.g a hosted cloud proxy to provide this functionality. If you do need to hop though a remote service, this could affect the performance and user experience.
 
-Protective monitoring of network connections should also be moved onto the device.
+Protective monitoring of network connections should also be moved onto the device. Safe messaging and browsing features such as malicious URL and phishing detection should be considered as device security features. 
 
 **General cyber hygiene**
 
