@@ -1,8 +1,8 @@
-# 6. Focus your monitoring on devices and services
+# 6. Focus your monitoring on users, devices and services
 
-Given that devices and services are more exposed to network attacks than in traditional architectures, it's important that comprehensive monitoring is carried out.
+Given that devices and services are more exposed to network attacks than in traditional architectures, it's important that comprehensive and continuous monitoring is carried out.
 
-You should know what actions that devices, users and services are performing and what data they are accessing. Your monitoring should link back to the policies that you set, verifying they are being enforced as you expect.
+You should know what actions that devices, users and services are performing and what data they are accessing. Your monitoring should link back to the policies that you set, verifying they are being enforced as you expect. Zero trust architecture should be able to adjust the policy dynamically according to the confidence level evaluated based on the signals from the user and the device. 
 
 **No choke points**
 
