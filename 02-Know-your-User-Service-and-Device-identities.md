@@ -28,7 +28,7 @@ Service accounts, keys (excluding those generated and stored in a secure enclave
 
 -   Support your joiners, movers, and leavers processes
 
--   Support 3^rd^ party federated ID (accepting identities from other trusted 3rd parties\' user directories)
+-   Support 3<sup>rd</sup> party federated ID (accepting identities from other trusted 3rd parties\' user directories)
 
 **Migration**
 
