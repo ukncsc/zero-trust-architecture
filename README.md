@@ -116,7 +116,7 @@ Every request to access a data or a service should be checked by a central polic
 
 [Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/04-Use-policies-to-authorise-requests.md)
 
-### 5. Authenticate everywhere
+### 5. Authenticate & Authorise everywhere
 
 In a zero trust architecture, we assume the network is hostile and authenticate *all* connections that access data or services.
 
