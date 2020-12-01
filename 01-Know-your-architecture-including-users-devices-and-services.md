@@ -1,4 +1,4 @@
-# 1. Know your architecture including users, devices, and services
+# 1. Know your architecture including users, devices, services and data
 
 In the zero trust network model it's more important than ever to know your assets. This will most likely involve undertaking an asset discovery phase to understand what you have. In some environments this can be challenging and it might involve using an automated tool to discover assets on the network. It might not always be a technology problem, it could be the case you can determine your assets by querying procurement records. In a micro service architecture it would be advantageous to know the data flows between services before you start to implement zero trust.
 
@@ -12,6 +12,6 @@ This principle is particularly important if transitioning to a zero trust archit
 
 **Conduct a risk assessment**
 
-Once you know your architecture it puts you in a better position to carry out an exercise to understand the risks to your new network design and ensure they are being mitigated. It would be sensible to start with a risk assessment. This can be used to help you understand if all risks have been mitigated using the zero trust components under consideration.
+Once you know your architecture it puts you in a better position to carry out an exercise to understand the risks to your new network design and the assets in the network and ensure they are being mitigated. It would be sensible to start with a risk assessment. This can be used to help you understand if all risks have been mitigated using the zero trust components under consideration. Degree of risk mitigation may depend on criticality of assets. It is imperative to evaluate the importance of the assets and provide the safeguards commensurate to them.
 
 If all the risks cannot be mitigated using a zero trust approach, the existing security controls from your current network architecture will need to stay in place until this is resolved.
