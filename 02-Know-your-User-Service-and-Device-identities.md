@@ -36,7 +36,7 @@ If you have an existing directory, migrating to another directory will require c
 
 **External access**
 
-You should also consider how you'll offer access to people from outside your organisation. Your services should be able to federate with external identity providers in order to allow access to appropriate services and data. For example, a visitor can see the lunch menu, or a contractor can only access documents related to their work.
+You should also consider how you'll offer access to people from outside your organisation. Your services may federate with external identity providers in order to allow access to appropriate services and data. For example, a visitor can see the lunch menu, or a contractor can only access documents related to their work.
 
 Identity and authentication is a wide-ranging topic needing careful consideration. The NCSC has more in-depth [guidance on identity and access management](https://www.ncsc.gov.uk/guidance/introduction-identity-and-access-management) as well as [authentication policy](https://www.ncsc.gov.uk/collection/mobile-device-guidance/enterprise-authentication-policy).
 
