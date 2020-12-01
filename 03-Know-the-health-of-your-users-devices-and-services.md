@@ -24,7 +24,7 @@ The health of your services needs to be monitored. An unexpected change in state
 
 **Users**
 
-The health of the users accessing services, devices and data should be carefully considered. Service and data access decisions need to be based on signals of the user and his or her devices being used for the access.
+The health of the users accessing services, devices and data should be carefully considered. Service and data access decisions need to be based on signals of the user and devices being used for the access.
 
 Define policies that check the state of the users\' connections. For example, a user connecting in from a different geographical region to where they are normally based, or activity in the middle of the night may be unexpected. Further signals can be requested to improve the integrity of the user action, by asking for another factor of authentication.
 
