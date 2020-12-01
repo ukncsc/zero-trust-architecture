@@ -38,7 +38,7 @@ If you are unsure whether zero trust is the correct network architecture for you
 
 ## Who is this guidance for?
 
-This guidance is aimed at a technical audience: Systems Engineers, Solution and Security Architects, and CISOs. The principles are also useful for reviewing architectures when carrying out security assessments or assurance activities.
+This guidance is aimed at anyone who is involved in planning, design, implementation, deployment and operation of organization's information systems and networks including Systems Engineers, Solution and Security Architects, IT and CISOs. The principles are also useful for reviewing architectures when carrying out security assessments or assurance activities.
 
 When implementing your design, these principles can be used as a guide for the features to look for in any specific technologies you plan to use.
 
