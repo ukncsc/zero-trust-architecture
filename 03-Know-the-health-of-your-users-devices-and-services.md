@@ -1,8 +1,8 @@
-# 3. Know the health of your users, devices and services
+# 3. Assess your user's behaviour, devices and services health
 
 You should monitor health signals from your users and devices (including IoT) continuously, to evaluate confidence in their trustworthiness. For example, you may want to know where your users are trying to access services from and have confidence in the health of your devices.
 
-### Device health
+## Device health
 
 You need to have confidence that the devices accessing your services and data are healthy.  The health of these devices represents some of the most important signals used to control access to your data and services. Device health consists of compliance with device configuration policies and device state.
 
@@ -12,7 +12,7 @@ Device health can be determined based on the state of security features on the p
 
 Going further, determining the underlying state of a devices' firmware, boot process, endpoint security suite and operating system kernel are strong signals which help to the determination its overall health. Attestation is a way of achieving this, taking a snapshot of the state of a device with claims about different components of the hardware and operating system. The endpoint security suite can inform whether the device is compromised. This information can be used as a signal that can be used to determine access to a service or data.
 
-**Services**
+## Services
 
 Service health should also be considered, not only when end user devices are accessing them, but also when services are talking to other services. Zero trust infrastructure, such as the policy engine and policy enforcement points should also be considered as services, when reading this principle.
 
@@ -22,11 +22,11 @@ Services must be kept up to date with the latest software patches and you should
 
 The health of your services needs to be monitored. An unexpected change in state may indicate an unauthorised change, or malicious activity. How this is achieved will depend on the type of service, but ideally this would be carried out programmatically, by interrogating an API provided by the service.
 
-**Users**
+## Users
 
-The health of the users accessing services, devices and data should be carefully considered. Service and data access decisions need to be based on signals of the user and devices being used for the access.
+The behaviour of the users accessing services, devices and data should be carefully considered. Service and data access decisions need to be based on signals of the user and devices being used for the access.
 
-Define policies that check the state of the users\' connections. For example, a user connecting in from a different geographical region to where they are normally based, or activity in the middle of the night may be unexpected. Further signals can be requested to improve the integrity of the user action, by asking for another factor of authentication.
+Define policies that check the state of users\' connections. For example, a user connecting in from a different geographical region to where they are normally based, or activity in the middle of the night may be unexpected. Further signals can be requested to improve the integrity of the user action, by asking for another factor of authentication.
 
 Passwordless authentication (e.g. FIDO2) is an ideal solution which provides strong security with an excellent user experience. Consider implementing passwordless authentication for a strong, consistent, and simple authentication experience across all of your services.
 
