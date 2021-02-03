@@ -104,11 +104,11 @@ In a zero trust architecture, identity becomes the new perimeter, it is importan
 
 [Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/02-Know-your-User-Service-and-Device-identities.md)
 
-### 3. Know the health of your users, devices and services
+### 3. Assess your user's behaviour, devices and services health
 
-The health of devices, user behaviour and services are some of the most important signals used to gain confidence in them.
+You should monitor health signals from your users and devices (including IoT) continuously, to evaluate confidence in their trustworthiness.
 
-[Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/03-Know-the-health-of-your-users-devices-and-services.md)
+[Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/03-Assess-your-users-behaviour-devices-and-services-health.md)
 
 ### 4. Use policies to authorise requests
 
