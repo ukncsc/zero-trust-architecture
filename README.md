@@ -80,13 +80,13 @@ When discussing zero trust architectures, it's useful to have a common vocabular
 
 -   Signal -- A piece of information like device health or location that can be used to gain confidence that you can trust an asset. You will often use a number of signals to make a decision to grant access to a resource. 
 
--   Signal database - A long term store of signals used to make access decisions
+-   Signal database -- A long term store of signals used to make access decisions
 
 -   Policy Engine -- The component that takes signals and compares them with access policies to determine an access decision. A policy engine will often be a 3rd party product or service that can be purchased from a vendor. 
 
 -   Policy Enforcement Point -- Mediates requests from a user or a device to a service or data using the Policy Engine to determine if the requests can be authorised.
 
--   Device health -  Confidence that a device is compliant with configuration polic**i**es, and is in a good state i.e. the latest patches have been installed, or a feature like secure boot is enabled. 
+-   Device health --  Confidence that a device is compliant with configuration policies, and is in a good state i.e. the latest patches have been installed, or a feature like secure boot is enabled. 
 
 ## The principles
 
@@ -98,7 +98,7 @@ In the zero trust network model it's more important than ever to know your asset
 
 [Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/01-Know-your-architecture-including-users-devices-and-services.md)
 
-### 2. Know your User, Service and Device identities
+### 2. Know your user, service and device identities
 
 In a zero trust architecture, identity becomes the new perimeter, it is important to have a single source of identity for each of the following: user (human), service (machine or software process) and device.
 
@@ -116,7 +116,7 @@ Every request to access a data or a service should be checked by a central polic
 
 [Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/04-Use-policies-to-authorise-requests.md)
 
-### 5. Authenticate & Authorise everywhere
+### 5. Authenticate & authorise everywhere
 
 In a zero trust architecture, we assume the network is hostile, authenticate and authorise *all* connections that access data or services.
 
