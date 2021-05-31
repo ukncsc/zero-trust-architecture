@@ -108,7 +108,7 @@ In a zero trust architecture, identity becomes the new perimeter, it is importan
 
 The health of devices, user behaviour and services are some of the most important signals used to gain confidence in them.
 
-[Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/03-Know-the-health-of-your-users-devices-and-services.md)
+[Read more](https://github.com/ukncsc/zero-trust-architecture/blob/master/03-Assess-your-users-behaviour-devices-and-services-health.md)
 
 ### 4. Use policies to authorise requests
 
