@@ -36,9 +36,9 @@ If you\'re new to zero trust architecture, or this is the first time you are re
 
 For **board level readers** read the [introduction to zero trust](Introduction-to-Zero-trust.md) and the overview of the principles on this page.
 
-For **technical readers** and **cyber security professionals **all sections are relevant, but we encourage you to read the key concepts and terminology before you jump into reading the principles in detail.
+For **technical readers** and **cyber security professionals** all sections are relevant, but we encourage you to read the key concepts and terminology before you jump into reading the principles in detail.
 
-**Product vendors and open source projects **can use this guidance to aid the development of zero trust architecture products and services.
+**Product vendors and open source projects** can use this guidance to aid the development of zero trust architecture products and services.
 
 ## **Overview of the principles**
 
