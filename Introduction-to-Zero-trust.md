@@ -22,7 +22,7 @@ It is common in breaches to see an attacker gain a foothold on a network and th
 
 If you remove trust from the network, you must instead gain confidence in your users, devices, and services. Rather than taking a snapshot as the user, device or service connects to your network and allowing the resulting permission to persist, you should look to continuously evaluate the trustworthiness of those connections.
 
-For users accessing services, you must build trust in user identity and behaviour and device health before they access can access the service. For services interacting with each other, such as data exchange using an API, this is achieved by ensuring the right services are communicating with each other and gaining trust in the health of the services your hosting.
+For users accessing services, you must build trust in user identity and behaviour and device health before they can access the service. For services interacting with each other, such as data exchange using an API, this is achieved by ensuring the right services are communicating with each other and gaining trust in the health of the services your hosting.
 
 How much confidence you need in order to trust a connection depends on the value of data being accessed, or the impact of the action being requested. 
 
