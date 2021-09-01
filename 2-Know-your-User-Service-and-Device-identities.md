@@ -68,13 +68,13 @@ Each device that your organisation owns should be uniquely identifiable in a sin
 
 The zero trust policies you define will use compliance and health claims from a device to make decisions about which data it can access and the actions it can perform. A strong identity is required to ensure these claims can be validated.
 
-The strength of a device's identity depends on the device type, hardware and platform:
+The confidence level at which a device can prove its identity depends on the device type, hardware and platform:
 
--   The ability for a device to prove its identity should be tightly bound to a secure hardware co-processor, such as a TPM, that will give you high confidence in the device\'s identity. Key attestation should be used where possible to prove the identity is protected in a secure hardware co-processor.
+- Using a secure hardware co-processor, such as a TPM, will give you high confidence in the device\'s identity. Key attestation should be used where possible to prove the identity is protected in a secure hardware co-processor.
 
--   The ability for a device to prove its identity stored on a well-managed device, using a software-based key store gives a lower confidence in the device\'s identity than a TPM-based approach.
+- On a well-managed device, using a software-based key store gives a lower confidence in the device\'s identity than a TPM-based approach.
 
--   The ability for a device to prove its identity on an unmanaged device in a software-based key store provides the least amount of confidence in the device\'s identity, relative to the above.
+- On an unmanaged device, using a software-based key store provides the least amount of confidence in the device\'s identity, relative to the above.
 
 Identifying devices from another organisation will require a trust relationship to be established between the two organisations. This should happen at both a governance and technical level.
 
