@@ -4,7 +4,7 @@
 
 In a zero trust architecture it is highly likely that your monitoring strategy will change to focus on users, devices and services. Monitoring your devices, services and user behaviour will help you to [establish their cyber health.](3-Assess-user-behaviour-service-and-device-health.md)
 
-Monitoring should be carried out on the device and be exported over a secure transport (such as mTLS) to a central location. User behaviour, like normal working hours or normal working location, is another important metric to monitor. It\'s also important to have visibility of your services and understand interaction between users and their data. This information [can be used as a signal](4-Use-policies-to-authorise-requests.md), with any abnormal activity observed could be used by a policy engine to make an access decision.
+Monitoring should be carried out on the device and be periodically exported or streamed over a secure transport (such as mutually authenticated TLS) to a central location. User behaviour, like normal working hours or normal working location, is another important metric to monitor. It\'s also important to have visibility of your services and understand interaction between users and their data. This information [can be used as a signal](4-Use-policies-to-authorise-requests.md), with any abnormal activity observed could be used by a policy engine to make an access decision.
 
 You should know what actions devices, users and services are performing and what data they are accessing. Your monitoring should link back to [the policies you have set](4-Use-policies-to-authorise-requests.md), verifying they are being enforced as you expect.
 
