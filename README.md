@@ -48,7 +48,7 @@ In order to get the benefits from zero trust, you need to know about each compon
 
 ### [**2. Know your user, service and device identities**](2-Know-your-User-Service-and-Device-identities.md)
 
-An identity can represent a user (a human), service (software process) or device. Each should be uniquely identifiable in a zero trust architecture. This is one of the most important factors in deciding whether someone or something should be given access to data or services.
+An identity can represent a user (a human), service (software process) or device. Each identity should be unique and cryptographically identifiable in a zero trust architecture. This is one of the most important factors in deciding whether someone or something should be given access to data or services.
 
 ### [**3. Assess your user behaviour, devices and services health**](3-Assess-user-behaviour-service-and-device-health.md)
 
