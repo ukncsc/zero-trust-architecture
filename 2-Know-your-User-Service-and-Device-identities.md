@@ -66,7 +66,7 @@ User access to an application or container platform should be federated into a s
 
 Each device that your organisation owns should be uniquely identifiable in a single device directory. This is usually achieved using a PKI, which cryptographically binds a keypair to an identity. This enables efficient asset management and provides clear visibility of the devices which access your services and data.
 
-The zero trust policies you define will use compliance and health claims from a device to make decisions about which data it can access and the actions it can perform. A strong identity is required to ensure these claims can be validated. The identity itself is not sensitive, but the ability to prove ownership of it is.
+The zero trust policies you define will use compliance and health claims from a device to make decisions about which data it can access and the actions it can perform. A strong identity is required to ensure these claims can be validated.
 
 The strength of the authentication of a device's identity depends on the device type, hardware and platform:
 
