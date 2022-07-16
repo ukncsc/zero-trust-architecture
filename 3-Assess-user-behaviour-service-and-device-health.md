@@ -1,6 +1,6 @@
 ## 3\. Assess user behaviour, service and device health
 
-**ser behaviour, and service or device health, are important indicators when looking to establish confidence in the security of your systems**
+**User behaviour, and service or device health, are important indicators when looking to establish confidence in the security of your systems**
 
 You should monitor health signals from your users and devices continuously, to evaluate confidence in their trustworthiness. Measuring user behaviour and device health helps you gain confidence of their cyber hygiene and that they have not been compromised. This information can be fed into a policy engine to make access decisions, as described in [4. Use policies to authorise requests.](4-Use-policies-to-authorise-requests.md)
 
